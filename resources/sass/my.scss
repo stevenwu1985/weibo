@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import "node_modules/bootstrap/scss/_alert.scss";
+
+$navbar-color: #3c3e42;
+.navbar-inverse {
+  background-color: $navbar-color;
+}
+
+body div {
+  color: red;
+}
+
+body h1 {
+  margin-top: 10px;
+}
+
+body {
+  div {
+    color: red;
+  }
+
+  h1 {
+    margin-top: 10px;
+  }
+}
+
